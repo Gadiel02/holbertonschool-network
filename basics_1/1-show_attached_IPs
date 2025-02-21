@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script displays all active IPv4 IPs on the machine it's executed on.
+
+# Get all active IPv4 IPs
+IPs=$(ifconfig | grep -oP '(?<=inet\s)\d+(\.\d+){3}')
+
+# Print the IPs
+for IP in $IPs; do
+  echo "$IP"
+done
