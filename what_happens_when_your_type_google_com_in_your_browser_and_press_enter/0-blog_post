@@ -1,0 +1,21 @@
+Cuando escribes https://www.google.com en tu navegador y presionas Enter, ocurre una serie de procesos para obtener la página web:
+
+Solicitud DNS: El navegador resuelve el nombre de dominio (www.google.com) a una dirección IP a través de un servidor DNS.
+
+Conexión TCP/IP: El navegador establece una conexión con el servidor usando TCP/IP, asegurando una transferencia de datos confiable.
+
+Cortafuegos: La solicitud pasa por un cortafuegos, que verifica si hay tráfico malicioso.
+
+HTTPS/SSL: La conexión se asegura con SSL/TLS, cifrando la comunicación entre el navegador y el servidor.
+
+Balanceador de carga: Un balanceador de carga distribuye la solicitud a un servidor disponible según factores como la carga y proximidad.
+
+Servidor web: El servidor web procesa la solicitud, manejando contenido estático directamente o enviando las solicitudes dinámicas al servidor de aplicaciones.
+
+Servidor de aplicaciones: El servidor de aplicaciones procesa contenido dinámico, como consultas de búsqueda, al comunicarse con servicios en el backend.
+
+Base de datos: El servidor de aplicaciones consulta bases de datos para obtener datos relevantes, como los resultados de búsqueda.
+
+Respuesta: Los datos se envían de vuelta al navegador, que renderiza la página web.
+
+En milisegundos, todo este proceso ocurre, entregando la página web a tu navegador.
